@@ -60,8 +60,7 @@ const Transaction = {
 //Agora eu preciso substituir os dados do html com os dados do JS
 
 const DOM = {
-    transactionsContainer: document.querySelector('#data-table 
-    tbody')
+    transactionsContainer: document.querySelector('#data-table tbody'),
     addTransaction(transaction, index) {
         const tr = document.createElement('tr')
         tr.innerHTML = DOM.innerHTMLTransaction(transaction)
